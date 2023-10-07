@@ -1,0 +1,285 @@
+.center{
+    text-align: center;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+body img{
+  max-width: 100%;
+  height: auto;
+}
+body{
+    background-color: #fff5ee;
+    font-family: sans-serif;
+}
+.container{
+    clear: both;
+    overflow: auto;
+}
+.container #about #diffrence #impact #peoplecando #Goals #name{
+  float: inline-start;
+}
+nav{
+    float: right;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.container nav ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+}
+/* .container nav ul li:hover{
+    color: orange;
+} */
+nav ul li a:hover{
+    color: green;
+}
+.logo img{
+    float: left;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+.slider-holder{
+    background-color: yellow;
+    width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.image-holder{
+    background-color: red;
+    width: 2400px;
+    height: 400px;
+    clear: both;
+    position: relative;
+    transition: left 3s;
+}
+.slider-image{
+    width: 800px;
+    height: 400px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+.button-holder{
+    /* background-color: blue; */
+    /* width: 800px;
+    height: 200px; */
+    position: relative;
+    top: -20px;
+}
+.slider-change{
+    display: inline-block;
+    background-color: darkorange;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+
+}
+#slider-image-1:target ~ .image-holder {
+    left: 0px;
+}
+#slider-image-2:target ~ .image-holder {
+    left: -800px;
+}
+#slider-image-3:target ~ .image-holder {
+    left: -1600px;
+}
+.box{
+    border: 2px dashed orange;
+    background-color: #ffe5b4;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+}
+table{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-collapse: collapse;
+}
+td,th,table{
+    border: 2px solid green;
+    padding: 10px;
+}
+th{
+    text-align: center;
+    background-color: #ade28a;
+}
+td{
+    text-align: left;
+    background-color: #70c03a;
+}
+td,th{
+    padding: 16px;
+}
+#content img{
+    width: 100%;
+    height: 400px;
+}
+#goals_detail .row{
+    margin: 10px;
+    padding: 10px;
+}
+#goals_detail .column{
+    width: 17%;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    height: 475px;
+    text-align: center;
+    background-color: white;
+}
+#goals_detail .column img{
+    width: 100%;
+}
+#goalsDetail .text, .row{
+    margin:10px;
+    padding:10px;
+  }
+  
+  #goalsDetail .column {
+    width: 17.5%;
+    float: left;
+    margin:5px;
+    padding:10px;
+    background-color: white;
+    height:475px;
+    text-align: center;
+  }
+  
+  /*subpages*/
+  
+  .banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 15px;
+  }
+  
+  .banner img{
+    border: 2px dashed black;
+    width: 550px;
+    height: 650px;
+  }
+  
+  .detail .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .detail .column {
+    float:left;
+    width: 45%;
+    margin:15px;
+    padding:15px;
+    height: 580px;
+  }
+  
+  .detail h3{
+    text-align: center;
+  }
+  
+  .goalsImage img{
+    height: 580px;
+  }
+  #goalsDetail .text, .row{
+  margin:10px;
+  padding:10px;
+  }
+
+#goalsDetail .column {
+  width: 17.5%;
+  float: left;
+  margin:5px;
+  padding:10px;
+  background-color: white;
+  height:475px;
+  text-align: center;
+  }
+
+/*subpages*/
+
+.banner{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-top: 15px;
+}
+
+.banner img{
+  border: 2px dashed black;
+}
+
+.detail .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.detail .column {
+  float:left;
+  width: 45%;
+  margin:15px;
+  padding:15px;
+  height: 580px;
+}
+
+.detail h3{
+  text-align: center;
+}
+
+.goalsImage img{
+  height: 580px;
+}
+.detail .column_box1{
+  text-align: center;
+  background-color: red;
+  border: 10px dotted white
+}
+.detail{
+  text-align: center;
+}
+.detail .box{
+  text-align: center;
+}
+.detail .column_box_yellow{
+  text-align: center;
+  background-color: rgb(245, 237, 89);
+  border: 10px dotted white
+}
+.detail .column_box3{
+  text-align: center;
+  background-color: rgb(51, 255, 0);
+  border: 10px dotted white
+}
+.detail .column_box_blue{
+  text-align: center;
+  background-color: rgb(0, 221, 255);
+  border: 10px dotted white
+}
+.detail .column_box_orange{
+  text-align: center;
+  background-color: rgb(255, 149, 0);
+  border: 10px dotted white
+}
+.detail .column_box_pink{
+  text-align: center;
+  background-color: rgb(255, 0, 230);
+  border: 10px dotted white
+}
+.detail .column_box_by{
+  text-align: center;
+  background-color: rgb(250, 247, 98);
+  border: 10px dotted white
+}
